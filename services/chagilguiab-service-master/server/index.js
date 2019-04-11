@@ -2,7 +2,11 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const { getStereo } = require ('../database/index.js');
+const morgan = require('morgan');
+const cors = require('cors');
 
+app.use(cors());
+app.use(morgan());
 app.use(bodyParser());
 app.use(express.static(__dirname + '/../client/dist'));
 const staticPath = `${__dirname}/../client/dist`;
