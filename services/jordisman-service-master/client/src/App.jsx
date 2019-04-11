@@ -2,7 +2,7 @@ import React from 'react';
 import Reviews from './Reviews.jsx';
 import styles from './style.css';
 
-class App extends React.Component {
+class RatingsReviews extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -33,6 +33,6 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default RatingsReviews;
 
 

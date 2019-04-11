@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import App from './components/App.jsx';
+import Images from './components/App.jsx';
 
-window.ImageCarousel = App;
-render(<App />, document.getElementById('app') || document.createElement('div'));
+window.ImageCarousel = Images;
+render(<Images />, document.getElementById('app') || document.createElement('div'));

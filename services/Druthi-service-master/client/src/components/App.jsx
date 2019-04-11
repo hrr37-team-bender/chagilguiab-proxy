@@ -15,7 +15,7 @@ let url = {
 var MainContainer = styled.div`
   margin-left:50px;
 `;
-class App extends React.Component {
+class Images extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -108,4 +108,4 @@ class App extends React.Component {
     );
   }
 }
-export default App;
+export default Images;
