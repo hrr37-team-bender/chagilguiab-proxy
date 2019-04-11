@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 
 app.use(cors());
-app.use(morgan());
+app.use(morgan('dev'));
 app.use(bodyParser());
 app.use(express.static(__dirname + '/../client/dist'));
 const staticPath = `${__dirname}/../client/dist`;
