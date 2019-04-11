@@ -22,7 +22,7 @@ class App extends React.Component {
 
   componentDidMount () {
     let path = window.location.pathname.slice(9);
-    $.get(`${path}`, (results) => {
+    $.get(`http://localhost:3002${path}`, (results) => {
       this.setState({
         stereo_data: results,
         currentPrice: results.current_price,
