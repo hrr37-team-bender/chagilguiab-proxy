@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS deepfryd;
-CREATE DATABASE IF NOT EXISTS deepfryd;
+DROP DATABASE IF EXISTS deepfryd_images;
+CREATE DATABASE IF NOT EXISTS deepfryd_images;
 
-USE deepfryd;
+USE deepfryd_images;
 
 
 CREATE TABLE IF NOT EXISTS images (
