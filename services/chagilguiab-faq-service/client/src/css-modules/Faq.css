@@ -1,7 +1,7 @@
 h5 {
   border-collapse: collapse;
   box-sizing: border-box;
-  border-bottom-style: dotted;
+  border-bottom: 1px dotted;
   border-bottom-color: rgb(204, 204, 204);
   color: rgb(57, 77, 127);
   display: block;
