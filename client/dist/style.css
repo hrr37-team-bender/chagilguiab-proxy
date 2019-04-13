@@ -1,0 +1,67 @@
+.deepfryd-logo {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  color: red;
+  font-weight: 900;
+  margin: 10px;
+}
+
+.deepfryd-navbar {
+  background-color: red;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border-right: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.deepfryd-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  place-content: center;
+}
+
+#Images {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#Descriptions {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+#Reviews {
+  padding:5px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#app {
+  padding:10px;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  overflow: hidden;
+  align-self: center;
+}
+
+#FeaturesSpecs {
+  padding:5px;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}

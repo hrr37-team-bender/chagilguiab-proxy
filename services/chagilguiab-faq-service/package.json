@@ -1,0 +1,41 @@
+{
+  "name": "chagilguiab-faq-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed-db": "mysql -u root < schema.sql && node database/init.js",
+    "start": "node server/index.js -w database -w server & webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hrr37-team-bender/chagilguiab-faq-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrr37-team-bender/chagilguiab-faq-service/issues"
+  },
+  "homepage": "https://github.com/hrr37-team-bender/chagilguiab-faq-service#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "css-loader": "^2.1.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.11",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "watchman": "^1.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
