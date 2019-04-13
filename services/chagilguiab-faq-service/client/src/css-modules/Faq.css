@@ -1,0 +1,18 @@
+h5 {
+  border-collapse: collapse;
+  box-sizing: border-box;
+  border-bottom-style: dotted;
+  border-bottom-color: rgb(204, 204, 204);
+  color: rgb(57, 77, 127);
+  display: block;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  text-size-adjust: 100%;
+  margin-bottom: 15px;
+}
+
+.faq-table {
+  width: 100%;
+}
