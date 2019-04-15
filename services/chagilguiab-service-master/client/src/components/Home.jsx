@@ -110,7 +110,7 @@ class Descriptions extends React.Component {
             prodName={productName}
             prodId={this.state.deepfryd_id}
             modelNum={this.state.stereo_data.model_number}
-            quant={this.state.quantity}
+            quantity={this.state.quantity}
             onClick={this.toggleModal}
           />
           </Modal>
