@@ -3,6 +3,7 @@ import $ from 'jquery';
 import Cart from './Cart.jsx';
 import Quantity from './Quantity.jsx';
 import Rating from './Rating.jsx';
+import Modal from 'react-modal';
 
 class Descriptions extends React.Component {
   constructor(props) {
