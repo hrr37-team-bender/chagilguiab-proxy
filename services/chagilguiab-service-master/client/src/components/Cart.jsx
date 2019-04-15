@@ -3,7 +3,7 @@ import Quantity from './Quantity.jsx';
 
 const Cart = (props) => (
 <div>
-  <button className="btn"><i className="fas fa-shopping-cart"></i> Add To Cart</button>
+  <button onClick={props.onClick} className="btn"><i className="fas fa-shopping-cart"></i> Add To Cart</button>
 </div>
 );
 
